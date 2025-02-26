@@ -21,3 +21,16 @@ if(num>0){
 }
 else
 console.log("Negative");
+
+//else if ladder
+age=44
+if(age <= 5)
+    console.log("Baby");
+else if(age<=12)
+    console.log("child");
+else if(age <=19)
+    console.log("teen age");
+else if(age<=50)
+    console.log("adult age");
+else
+ console.log("senior");
